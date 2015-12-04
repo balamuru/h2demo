@@ -10,6 +10,7 @@ import org.springframework.stereotype.Component;
 @SpringBootApplication
 public class H2demoApplication {
 
+    //main app
     public static void main(String[] args) {
         SpringApplication.run(H2demoApplication.class, args);
     }
