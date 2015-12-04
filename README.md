@@ -1,6 +1,12 @@
-# h2demo
+# H2 server vs Embeedded mode
+##Description
 sample project to illustrate the difference in performance between h2 embedded mode and h2 server mode
 
+## Switching between Server and Embedded mode
+* uncomment the appropriate config line in resources/application.properties
+* note that for server mode, H2 needs to be downloaded from http://www.h2database.com/html/download.html and executed via path/to/h2/bin/h2.sh (or h2.bat) 
+
+## Results
 * each run inserts 20 iterations x 100K employee objects  of type
 admin.employee (
   id      BIGINT       NOT NULL AUTO_INCREMENT,
