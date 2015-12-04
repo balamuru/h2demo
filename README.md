@@ -9,6 +9,7 @@ sample project to illustrate the difference in performance between h2 embedded m
 ## Results
 * The junit test used to illustrate the issue is at com.vgb.db.H2demoApplicationTests.createEmployees()
 * each run inserts 20 iterations x 100K employee objects  of type
+```
 admin.employee (
   id      BIGINT       NOT NULL AUTO_INCREMENT,
   name    VARCHAR(100) NOT NULL,
@@ -16,7 +17,7 @@ admin.employee (
   data MEDIUMBLOB,
   PRIMARY KEY (id)
 );
-
+```
 * no items are deleted between runs
 
 * the test case cleans up the admin.employee table during initialization
