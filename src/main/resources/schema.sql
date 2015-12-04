@@ -1,0 +1,9 @@
+CREATE SCHEMA IF NOT EXISTS admin;
+
+CREATE TABLE IF NOT EXISTS admin.employee (
+  id      BIGINT       NOT NULL AUTO_INCREMENT,
+  name    VARCHAR(100) NOT NULL,
+  address TEXT,
+  data MEDIUMBLOB,
+  PRIMARY KEY (id)
+);
