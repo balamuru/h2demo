@@ -7,6 +7,7 @@ sample project to illustrate the difference in performance between h2 embedded m
 * note that for server mode, H2 needs to be downloaded from http://www.h2database.com/html/download.html and executed via path/to/h2/bin/h2.sh (or h2.bat) 
 
 ## Results
+* The junit test used to illustrate the issue is at com.vgb.db.H2demoApplicationTests.createEmployees()
 * each run inserts 20 iterations x 100K employee objects  of type
 admin.employee (
   id      BIGINT       NOT NULL AUTO_INCREMENT,
