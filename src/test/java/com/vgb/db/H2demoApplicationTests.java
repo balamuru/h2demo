@@ -27,7 +27,7 @@ public class H2demoApplicationTests {
 
     @Before
     public void setup() throws Exception {
-        employeeService.deleteAll();
+//        employeeService.deleteAll();
     }
 
     @Test
