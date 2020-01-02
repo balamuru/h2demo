@@ -1,5 +1,5 @@
 # H2 server vs Embedded mode
-##Description
+## Description
 sample project to illustrate the difference in performance between h2 embedded mode and h2 server mode
 
 ## Switching between Server and Embedded mode
